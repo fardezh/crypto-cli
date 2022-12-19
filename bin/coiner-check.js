@@ -9,11 +9,7 @@ program
     "Add specific coin types in CSV format",
     "BTC,ETH,XRP",
   )
-  .option(
-    "--currency <currency>",
-    "Change Currency",
-    "USD",
-  )
+  .option("--currency <currency>", "Change Currency", "USD")
   .action((cmd) => {
     check.price(cmd);
   });
