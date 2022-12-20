@@ -14,7 +14,7 @@ const check = {
         cmd.currency,
       );
 
-      console.log(priceData);
+      console.log(priceData.join("\n"));
     } catch (err) {
       console.log(err.message.red);
     }
