@@ -29,7 +29,7 @@ Install dependencies
 Install it globally
 
 ```bash
-  npm install -g
+  npm link
 ```
 
 ## Useage
